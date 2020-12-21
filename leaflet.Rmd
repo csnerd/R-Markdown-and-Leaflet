@@ -23,7 +23,7 @@ map_eden <- leaflet() %>%
     "MyOffice",
     layers = "nexrad-n0r-900913",
     options = WMSTileOptions(format = "image/png", transparent = TRUE),
-    attribution = "Weather data © 2012 IEM Nexrad"
+    attribution = "data © 2012 IEM Nexrad"
   )
 map_eden
 ```
